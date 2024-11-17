@@ -1,15 +1,17 @@
 module github.com/diezfx/split-app-backend
 
-go 1.21
+go 1.22.0
+
+toolchain go1.23.3
 
 require (
 	github.com/Rhymond/go-money v1.0.10
 	github.com/georgysavva/scany/v2 v2.0.0
 	github.com/gin-contrib/cors v1.5.0
 	github.com/gin-gonic/gin v1.9.1
-	github.com/golang-migrate/migrate/v4 v4.17.0
-	github.com/google/uuid v1.5.0
-	github.com/jackc/pgx/v5 v5.5.2
+	github.com/golang-migrate/migrate/v4 v4.18.1
+	github.com/google/uuid v1.6.0
+	github.com/jackc/pgx/v5 v5.5.4
 	github.com/lestrrat-go/jwx/v2 v2.0.18
 	github.com/rs/zerolog v1.31.0
 	golang.org/x/exp v0.0.0-20231226003508-02704c960a9b
@@ -51,11 +53,11 @@ require (
 	github.com/ugorji/go/codec v1.2.11 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/arch v0.5.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/net v0.18.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	golang.org/x/crypto v0.27.0 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
+	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
