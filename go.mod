@@ -3,7 +3,7 @@ module github.com/diezfx/split-app-backend
 go 1.21
 
 require (
-	github.com/Rhymond/go-money v1.0.10
+	github.com/Rhymond/go-money v1.0.14
 	github.com/georgysavva/scany/v2 v2.0.0
 	github.com/gin-contrib/cors v1.5.0
 	github.com/gin-gonic/gin v1.9.1
