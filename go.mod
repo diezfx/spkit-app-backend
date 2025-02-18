@@ -1,6 +1,8 @@
 module github.com/diezfx/split-app-backend
 
-go 1.21
+go 1.23.0
+
+toolchain go1.24.0
 
 require (
 	github.com/Rhymond/go-money v1.0.10
@@ -12,7 +14,7 @@ require (
 	github.com/jackc/pgx/v5 v5.5.2
 	github.com/lestrrat-go/jwx/v2 v2.0.18
 	github.com/rs/zerolog v1.31.0
-	golang.org/x/exp v0.0.0-20231226003508-02704c960a9b
+	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa
 )
 
 require (
@@ -53,7 +55,7 @@ require (
 	golang.org/x/arch v0.5.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/net v0.18.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
